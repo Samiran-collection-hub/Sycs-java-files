@@ -73,6 +73,7 @@ public class impro extends JFrame implements ActionListener{
 
         this.setLayout(null);
         this.setVisible(true);
+        this.setResizable(false);
         this.setTitle("image property");
         this.setSize(400, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
