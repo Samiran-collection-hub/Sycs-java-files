@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class practice extends JFrame implements ActionListener{
+public class combobox2 extends JFrame implements ActionListener{
     JComboBox combobox;
-    practice(){
+    combobox2(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
@@ -22,6 +22,6 @@ public class practice extends JFrame implements ActionListener{
         }
     }
     public static void main(String[] args) {
-        new practice();
+        new combobox2();
     }
 }
