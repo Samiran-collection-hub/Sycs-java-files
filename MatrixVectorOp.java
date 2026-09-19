@@ -1,5 +1,4 @@
-import jdk.incubator.vector.FloatVector;
-import jdk.incubator.vector.VectorSpecies;
+import jdk.incubator.vector.*;
 
 public class MatrixVectorOp {
     static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
