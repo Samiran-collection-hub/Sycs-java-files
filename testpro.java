@@ -77,5 +77,5 @@ public class testpro implements ActionListener{
             table.repaint();
         }
     }
-    public static void main(String[] args) {new testpro();}
+    public static void main(String[] args) {new testpro();} //made by samiran
 }
