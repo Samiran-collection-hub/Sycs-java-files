@@ -66,9 +66,7 @@ public class testpro implements ActionListener{
             String find=tf1.getText();
             for (int j = 0; j < data.length; j++) {
                 if (find.equals(data[j][0])) {
-                    data[j][0]="";
-                    data[j][1]="";
-                    data[j][2]="";
+                    data[j][0]="";data[j][1]="";data[j][2]="";
                     break;
                 }
             }
